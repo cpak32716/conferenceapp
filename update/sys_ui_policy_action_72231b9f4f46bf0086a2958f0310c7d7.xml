@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field>number_of_open_slots</field>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>clpak</sys_created_by>
+        <sys_created_on>2019-06-20 18:36:08</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>72231b9f4f46bf0086a2958f0310c7d7</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>number_of_open_slots</sys_name>
+        <sys_package display_value="Conference Management" source="x_dnllp_conference">a75f591613b1f300ae0d56df3244b022</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Conference Management">a75f591613b1f300ae0d56df3244b022</sys_scope>
+        <sys_update_name>sys_ui_policy_action_72231b9f4f46bf0086a2958f0310c7d7</sys_update_name>
+        <sys_updated_by>clpak</sys_updated_by>
+        <sys_updated_on>2019-06-20 18:40:55</sys_updated_on>
+        <table>x_dnllp_conference_management_table</table>
+        <ui_policy display_value="Number of Open Slots diplay">29d2939f4f46bf0086a2958f0310c7a9</ui_policy>
+        <visible>true</visible>
+    </sys_ui_policy_action>
+</record_update>

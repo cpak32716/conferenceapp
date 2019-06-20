@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="actual_cost" label="Actual Cost" language="en" table="x_dnllp_conference_management_table">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>actual_cost</element>
+            <help/>
+            <hint/>
+            <label>Actual Cost</label>
+            <language>en</language>
+            <name>x_dnllp_conference_management_table</name>
+            <plural>Actual Costs</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>clpak</sys_created_by>
+            <sys_created_on>2019-06-19 22:05:36</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>079972cb4fc67f0086a2958f0310c701</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Actual Cost</sys_name>
+            <sys_package display_value="Conference Management" source="x_dnllp_conference">a75f591613b1f300ae0d56df3244b022</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Conference Management">a75f591613b1f300ae0d56df3244b022</sys_scope>
+            <sys_update_name>sys_documentation_x_dnllp_conference_management_table_actual_cost_en</sys_update_name>
+            <sys_updated_by>clpak</sys_updated_by>
+            <sys_updated_on>2019-06-19 22:05:36</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

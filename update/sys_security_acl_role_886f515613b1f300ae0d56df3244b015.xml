@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>ctoler</sys_created_by>
+        <sys_created_on>2019-06-04 21:20:13</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>886f515613b1f300ae0d56df3244b015</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_dnllp_conference_management_table.x_dnllp_conference.user</sys_name>
+        <sys_package display_value="Conference Management" source="x_dnllp_conference">a75f591613b1f300ae0d56df3244b022</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Conference Management">a75f591613b1f300ae0d56df3244b022</sys_scope>
+        <sys_security_acl display_value="x_dnllp_conference_management_table">486f515613b1f300ae0d56df3244b005</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_886f515613b1f300ae0d56df3244b015</sys_update_name>
+        <sys_updated_by>ctoler</sys_updated_by>
+        <sys_updated_on>2019-06-04 21:20:13</sys_updated_on>
+        <sys_user_role display_value="x_dnllp_conference.user" name="x_dnllp_conference.user">bf5f115613b1f300ae0d56df3244b0e1</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+</record_update>

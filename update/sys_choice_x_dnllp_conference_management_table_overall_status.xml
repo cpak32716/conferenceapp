@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="overall_status" table="x_dnllp_conference_management_table" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>overall_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Approved</label>
+            <language>en</language>
+            <name>x_dnllp_conference_management_table</name>
+            <sequence/>
+            <sys_created_by>clpak</sys_created_by>
+            <sys_created_on>2019-06-19 22:02:42</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3ed8f68b4fc67f0086a2958f0310c74d</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>clpak</sys_updated_by>
+            <sys_updated_on>2019-06-19 22:02:50</sys_updated_on>
+            <value>u_approved</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>overall_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Denied</label>
+            <language>en</language>
+            <name>x_dnllp_conference_management_table</name>
+            <sequence/>
+            <sys_created_by>clpak</sys_created_by>
+            <sys_created_on>2019-06-19 22:02:55</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f8f8b68b4fc67f0086a2958f0310c7ca</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>clpak</sys_updated_by>
+            <sys_updated_on>2019-06-19 22:03:00</sys_updated_on>
+            <value>u_denied</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>overall_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Pending Agency CFO Review</label>
+            <language>en</language>
+            <name>x_dnllp_conference_management_table</name>
+            <sequence/>
+            <sys_created_by>clpak</sys_created_by>
+            <sys_created_on>2019-06-19 22:01:21</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e678728b4fc67f0086a2958f0310c704</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>clpak</sys_updated_by>
+            <sys_updated_on>2019-06-19 22:01:38</sys_updated_on>
+            <value>u_pending_agency_cfo_review</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>overall_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Pending Department CFO Review</label>
+            <language>en</language>
+            <name>x_dnllp_conference_management_table</name>
+            <sequence/>
+            <sys_created_by>clpak</sys_created_by>
+            <sys_created_on>2019-06-19 22:01:51</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c9a8f28b4fc67f0086a2958f0310c723</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>clpak</sys_updated_by>
+            <sys_updated_on>2019-06-19 22:02:03</sys_updated_on>
+            <value>u_pending_department_cfo_review</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>overall_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Pending Department S1 Review</label>
+            <language>en</language>
+            <name>x_dnllp_conference_management_table</name>
+            <sequence/>
+            <sys_created_by>clpak</sys_created_by>
+            <sys_created_on>2019-06-19 22:02:18</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>dcc8768b4fc67f0086a2958f0310c74a</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>clpak</sys_updated_by>
+            <sys_updated_on>2019-06-19 22:02:34</sys_updated_on>
+            <value>u_pending_department_s1_review</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>overall_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Pending Program Office Review</label>
+            <language>en</language>
+            <name>x_dnllp_conference_management_table</name>
+            <sequence/>
+            <sys_created_by>clpak</sys_created_by>
+            <sys_created_on>2019-06-19 22:00:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9d58fa4b4fc67f0086a2958f0310c7b8</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>clpak</sys_updated_by>
+            <sys_updated_on>2019-06-19 22:01:05</sys_updated_on>
+            <value>u_pending_program_office_review</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>overall_status</element>
+            <name>x_dnllp_conference_management_table</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>clpak</sys_created_by>
+            <sys_created_on>2019-06-19 22:00:39</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>a278b28b4fc67f0086a2958f0310c708</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>overall_status</sys_name>
+            <sys_package display_value="Conference Management" source="x_dnllp_conference">a75f591613b1f300ae0d56df3244b022</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Conference Management">a75f591613b1f300ae0d56df3244b022</sys_scope>
+            <sys_update_name>sys_choice_x_dnllp_conference_management_table_overall_status</sys_update_name>
+            <sys_updated_by>clpak</sys_updated_by>
+            <sys_updated_on>2019-06-19 22:00:39</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

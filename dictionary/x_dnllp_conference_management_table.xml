@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="task" label="Conference Request Form" max_length="40" name="x_dnllp_conference_management_table" sizeclass="1" type="collection">
+        <element label="Actual Cost" mandatory="true" max_length="20" name="actual_cost" type="currency"/>
+        <element label="Conference Justification" mandatory="true" max_length="4000" name="conference_justification" type="journal_input"/>
+        <element label="Conference Location" mandatory="true" max_length="32" name="conference_location" reference="cmn_location" type="reference"/>
+        <element label="Conference Name" mandatory="true" max_length="40" name="conference_name" type="string"/>
+        <element choice="1" label="Conference Type" mandatory="true" max_length="40" name="conference_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Consolidated" value="u_consolidated"/>
+                <element inactive_on_update="false" label="Hosted" value="u_hosted"/>
+                <element inactive_on_update="false" label="Non-Hosted" value="u_non_hosted"/>
+            </choice>
+        </element>
+        <element label="Duration" max_length="40" name="duration" type="glide_date_time"/>
+        <element label="End Date" mandatory="true" max_length="40" name="end_date" type="glide_date_time"/>
+        <element label="Estimated Price" mandatory="true" max_length="40" name="estimated_price" type="currency"/>
+        <element choice="1" label="Finance Closeout Status" mandatory="true" max_length="40" name="finance_closeout_status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Completed" value="u_completed"/>
+                <element inactive_on_update="false" label="Open" value="u_open"/>
+            </choice>
+        </element>
+        <element label="Fiscal Year" mandatory="true" max_length="40" name="fiscal_year" type="glide_date_time"/>
+        <element label="Number of Open Slots" max_length="40" name="number_of_open_slots" type="integer"/>
+        <element choice="1" label="Open to General User to Attend?" mandatory="true" max_length="40" name="open_to_general_user_to_attend" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Yes" sequence="10" value="u_yes"/>
+                <element inactive_on_update="false" label="No" sequence="20" value="u_no"/>
+            </choice>
+        </element>
+        <element choice="1" label="Overall Status" mandatory="true" max_length="40" name="overall_status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Approved" value="u_approved"/>
+                <element inactive_on_update="false" label="Denied" value="u_denied"/>
+                <element inactive_on_update="false" label="Pending Agency CFO Review" value="u_pending_agency_cfo_review"/>
+                <element inactive_on_update="false" label="Pending Department CFO Review" value="u_pending_department_cfo_review"/>
+                <element inactive_on_update="false" label="Pending Department S1 Review" value="u_pending_department_s1_review"/>
+                <element inactive_on_update="false" label="Pending Program Office Review" value="u_pending_program_office_review"/>
+            </choice>
+        </element>
+        <element label="Program Office" mandatory="true" max_length="40" name="program_office" reference="x_dnllp_fmsp_office_information_table" type="reference"/>
+        <element label="Requestor" mandatory="true" max_length="40" name="requestor" reference="sys_user" type="reference"/>
+        <element label="Start Date" mandatory="true" max_length="40" name="start_date" type="glide_date_time"/>
+    </element>
+</database>
